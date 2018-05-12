@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hugo.myapplication.MainActivity">
+    <item
+        android:id="@+id/menu_manual_input"
+        android:title="@string/manual_input"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_day_view"
+        android:title="@string/daily_view"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_week_view"
+        android:title="@string/weekly_view"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_month_view"
+        android:title="@string/monthly_view"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_about"
+        android:orderInCategory="100"
+        android:title="@string/about"
+        app:showAsAction="never" />
+
+</menu>

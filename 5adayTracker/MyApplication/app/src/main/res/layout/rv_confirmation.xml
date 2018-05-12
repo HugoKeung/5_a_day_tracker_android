@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <AutoCompleteTextView
+        android:id="@+id/confirm_text"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:completionThreshold="1"
+        android:maxLines="1"
+        android:inputType="text"
+       />
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:id="@+id/confirm_number"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+
+
+        ></NumberPicker>
+
+</LinearLayout>

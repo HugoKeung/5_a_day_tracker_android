@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="302dp"
+        android:id="@+id/calendar_month"></CalendarView>
+
+    <include
+        layout="@layout/rv_each_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.64" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_month"
+        ></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

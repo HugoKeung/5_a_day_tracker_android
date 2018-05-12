@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">5 a day tracker</string>
+    <string name="about">About</string>
+    <string name="daily_view">Daily View</string>
+    <string name="camera_input">Camera Input</string>
+    <string name="monthly_view">Monthly View</string>
+    <string name="weekly_view">Weekly View</string>
+    <string name="statistics">Statistics</string>
+    <string name="manual_input">Manual Input</string>
+    <string name="ask_input">Enter Name of Fruits/Veg</string>
+    <string name="ok">OK</string>
+    <string name="instruction">Press the camera icon on the main screen and take a picture of your food. Key in the quantity and the application will calculate the portion of fruits and vegetables you have consumed for the day.</string>
+    <string name="above_food_list">Below shows the ratio of quanitity of portion of the fruits and vegetables</string>
+    <string name="food_name"><u><b><i>Name of food</i></b></u></string>
+    <string name="real_portion"><u><b><i>Portion</i></b></u></string>
+
+</resources>
