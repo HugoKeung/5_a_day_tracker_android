@@ -18,4 +18,5 @@ Due to the size of the tensorflow model, it cannot be uploaded to github.
 The model can be found here separately:
 https://github.com/martinwicke/tensorflow-tutorial/blob/master/tensorflow_inception_graph.pb
 
-
+This project is built as part of a dissertation, the dissertation, which include screenshots, testing and more information behind the building of the application can be found in the following link:
+https://github.com/HugoKeung/5_a_day_tracker_android/blob/master/CNN_food_recognition.pdf
